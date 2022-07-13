@@ -1,4 +1,63 @@
 @charset "UTF-8";
 * {
+    /*border: 1px solid #000;*/
+    margin: 0;
+    padding: 0;
+}
+main {
     border: 1px solid #000;
+    width: 1100px;
+    float: right;
+}
+li.li1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 120px;
+    height: 20px;
+    margin: 20px 0;
+    padding: 5px;
+    display: inline-block;
+}
+li.li2 {
+    background-color: #fff;
+    /*border: 1px solid #000;*/
+    text-align: left;
+    width: 120px;
+    height: 20px;
+    margin: 20px 0;
+    padding: 5px;
+}
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+li:hover {
+    box-shadow: inset 0 0 5px 1px #c0c0c0;
+}
+aside {
+    text-align: center;
+}
+nav.aside {
+    display: inline-block;
+}
+/*/////////////////////CLASSES E ID's////////////////////////*/
+.caixa1 {
+    margin: 5px auto;
+    padding: 5px;
+    height: 150px;
+    text-align: center;
+}
+.inputHeader1 {
+    padding: 5px 15px;
+    width: 400px;
+    height: 20px;
+    border-radius: 25px;
+}
+.inputHeader2 {
+    padding: 5px 15px;
+    border-radius: 25px;
+    float: right;
+}
+.inputHeader2:active {
+    background-color: #7FFF00FF;
 }
